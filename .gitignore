@@ -1,0 +1,11 @@
+# Video masters — served from the published artifact, not tracked here.
+# 221 MB across 85 files; git stores a full copy of every re-encode.
+dist/assets/video/*.mp4
+
+# Internal QA notes. Never rendered to any page.
+content/review-notes.local.json
+
+# Local noise
+node_modules/
+.DS_Store
+*.log
